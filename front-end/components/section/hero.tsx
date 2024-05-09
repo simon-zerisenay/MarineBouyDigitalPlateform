@@ -1,4 +1,4 @@
-import { Link } from "@nextui-org/link";
+import Link  from "next/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code"
 import { button as buttonStyles } from "@nextui-org/theme";
@@ -22,7 +22,7 @@ export default function Hero() {
 
 			<div className="flex gap-3">
 				<Link
-					isExternal
+				
 					href='/signup'
 					className="bg-gradient-to-t from-blue-700 to-blue-400 px-5 py-3 rounded-xl text-white text-lg "
 				>
