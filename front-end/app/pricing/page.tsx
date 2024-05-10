@@ -11,8 +11,8 @@ interface UserInfo {
 	// Add other fields as needed
   }
 //const urlPath = 'http://localhost:3009'
-const urlPath = process.env.NEXT_PUBLIC_url;
-//const urlPath ='https://pollen-identification-2.onrender.com'
+//const urlPath = process.env.NEXT_PUBLIC_url;
+const urlPath ='https://marinbouy.onrender.com'
 export default function PricingPage() {
 	const [userInfomation, setUserInfomation] = useState<UserInfo | null>(null);
 
