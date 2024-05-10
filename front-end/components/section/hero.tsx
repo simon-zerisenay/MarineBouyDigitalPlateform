@@ -10,10 +10,9 @@ import {Image} from "@nextui-org/image";
 export default function Hero() {
   return (
     <section className="flex flex-col md:flex-row items-stretch justify-between gap-4 ">
-			<div className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-			<div className="inline-block max-w-xl text-center justify-center">
-				<h1 className={title()}>Oceanographic  &nbsp;</h1>
-				<h1 className={title({ color: "blue" })}>Marine Buoy&nbsp;</h1>
+			<div className="flex flex-col items-start  gap-4 py-8 md:py-10">
+			<div className="inline-block max-w-xl text-start justify-center">
+				<h1 className={title({ color: "blue" })}> Oceanographic Marine Buoy&nbsp;</h1>
 				
 				<h2 className={subtitle({ class: "mt-4" })}>
 				Real-time water monitoring, pollutant tracking, climate data gathering. Buoy strategically measures water, equipped with diverse sensors.
@@ -32,7 +31,13 @@ export default function Hero() {
 			</div>
 			
 			</div>
-
+            <div className=" max-w-xl flex justify-center">
+			<Image
+              width={400}
+                 alt="NextUI hero Image"
+                 src="/Capture1.PNG"
+               />
+			  </div>
 			
 		    </section>
   )

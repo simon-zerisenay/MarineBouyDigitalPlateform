@@ -10,8 +10,8 @@ interface UserInfo {
 	email: string;
 	// Add other fields as needed
   }
-const urlPath = 'http://localhost:3009'
-//const urlPath = process.env.NEXT_PUBLIC_url;
+//const urlPath = 'http://localhost:3009'
+const urlPath = process.env.NEXT_PUBLIC_url;
 //const urlPath ='https://pollen-identification-2.onrender.com'
 export default function PricingPage() {
 	const [userInfomation, setUserInfomation] = useState<UserInfo | null>(null);

@@ -7,8 +7,8 @@ import React, { useEffect, useState, ChangeEvent } from "react";
 import { useFormContext } from "@/context/context"
 
 
-const urlPath = 'http://localhost:3009'
-//const urlPath = process.env.NEXT_PUBLIC_url;
+//const urlPath = 'http://localhost:3009'
+const urlPath = process.env.NEXT_PUBLIC_url;
 //const urlPath ='https://pollen-identification-2.onrender.com'
 export default function SignUpPage() {
 
